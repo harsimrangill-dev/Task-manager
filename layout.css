@@ -1,0 +1,96 @@
+﻿.tbl{
+    position:absolute;
+    left: 70px;
+    top: 100px;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right:2px;
+    border: solid;
+    font-family: Arial;
+    font-size: large;
+    
+    
+}
+
+.foot{
+    position:absolute;
+    left:50px;
+    top:500px;
+}
+
+.task{
+    position:absolute;
+    font-size:medium;
+    left:840px;
+    top: 97px;
+    background-color:azure;
+    width: 345px;
+    height: 313px;
+}
+
+.hed{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    padding-top: 10px;
+    font-family: 'Sitka Heading';
+    padding-left: 10px;
+    font-size:x-large;
+}
+
+table.timecard {
+    margin: auto;
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #fff; /*for older IE*/
+    border-style: hidden;
+}
+
+    table.timecard caption {
+        background-color: #f79646;
+        color: #fff;
+        font-size: x-large;
+        font-weight: bold;
+        letter-spacing: .3em;
+    }
+
+    table.timecard thead th {
+        padding: 8px;
+        background-color: #fde9d9;
+        font-size: large;
+    }
+
+        table.timecard thead th#thDay {
+            width: 40%;
+        }
+
+        table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+            width: 20%;
+        }
+
+    table.timecard th, table.timecard td {
+        padding: 3px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #f79646 #ccc;
+    }
+
+    table.timecard td {
+        text-align: center;
+    }
+
+    table.timecard tbody th {
+        text-align: center;
+        font-weight: normal;
+    }
+
+    table.timecard tfoot {
+        font-weight: bold;
+        font-size: large;
+        background-color: #687886;
+        color: #fff;
+    }
+
+    table.timecard tr.even {
+        background-color: #fde9d9;
+    }
